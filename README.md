@@ -1,5 +1,5 @@
 ## j̷̺̇͠é̶̼̹̀l̴̘̯̙̽͛z̷̛̜̼͗̽ ̶̢̹̙̂̔i̶͕̊s̶̘̋͒̚ ̷̻͈̈́͒ḟ̷̦̪ȯ̶͉̰͈͆r̵̲̹̔ ̶̺͑́m̵̳͖̝͛e̸͉͆̀ ̴̗͈͍͛̽̕ṅ̶̼̈́o̴̹̺͓̎ ̸̹̾̍̆ư̴̜̟̲̾̈́
-<img style="background-image: url('https://raw.githubusercontent.com/jlelz/jlelz/refs/heads/main/images/bg.png');" alt="drawing" width="200"/>
+<img style="background-image: url('../images/bg.png');" alt="drawing" width="200"/>
 <!--
 ![opacity:.5](https://raw.githubusercontent.com/jlelz/jlelz/refs/heads/main/images/bg.png#MediumOpacity)
 
