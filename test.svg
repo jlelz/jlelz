@@ -5,7 +5,7 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 		<style>
 			body {
-			  background: #000;
+			  background: transparent;
 			  overflow: hidden;
 			  margin: 0;
 			  height: 100vh;
