@@ -1,96 +1,48 @@
-<!-- https://music.youtube.com/watch?v=U0MrkZiM6w8 -->
-
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
-		<style>
-		body {
-		  background: #000;
-		  overflow: hidden;
-		  margin: 0;
-		  height: 100vh;
-		}
+      <style>
+        @keyframes hi  {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
 
-		.matrix-container {
-		  position: relative;
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  height: 100vh;
-		  z-index: 2; /* Ensure it stays above the rain effect */
-		}
+        .container {
+          background-color: black;
 
-		.matrix-text {
-		  color: #0f0;
-		  font-size: 80px;
-		  font-family: monospace;
-		  position: relative;
-		  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
-		  z-index: 2; /* Ensure it stays above the rain effect */
-		}
+          width: 100%;
+          height: 300px;
 
-		.matrix-text::before {
-		  content: attr(data-text);
-		  position: absolute;
-		  top: 0;
-		  left: 0;
-		  width: 100%;
-		  height: 100%;
-		  animation: glitch 2s infinite;
-		  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-		  transform: translate(-2px, -2px);
-		  color: #0f0;
-		  text-shadow: 0 0 5px #0f0, 0 0 15px #0f0;
-		}
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
 
-		.rain {
-		  position: absolute;
-		  top: 0;
-		  left: 0;
-		  width: 100%;
-		  height: 100%;
-		  background: repeating-linear-gradient(
-		    0deg,
-		    rgba(0, 255, 0, 0.1) 0,
-		    rgba(0, 255, 0, 0.2) 2px,
-		    transparent 4px
-		  );
-		  animation: rain 10s linear infinite;
-		  z-index: 1; /* Place it behind the text */
-		}
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
 
-		/* Animation for the rain effect */
-		@keyframes rain {
-		  0% {
-		    transform: translateY(-100%);
-		  }
-		  100% {
-		    transform: translateY(100%);
-		  }
-		}
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
 
-		/* Glitch effect for the text */
-		@keyframes glitch {
-		  0%, 100% {
-		    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
-		    transform: translate(0);
-		  }
-		  33% {
-		    clip-path: polygon(0 0, 100% 0, 100% 15%, 0 15%);
-		    transform: translate(-5px, -5px);
-		  }
-		  66% {
-		    clip-path: polygon(0 85%, 100% 85%, 100% 100%, 0 100%);
-		    transform: translate(5px, 5px);
-		  }
-		}
-		</style>
-		<body class="matrix-bg">
-		  <div class="matrix-container">
-		    <h1 class="matrix-text" data-text="MATRIX">e̸̯̥͝v̵̰͚̦͛̊á̶̠́ș̸̀i̶̯͆͌̌v̵̼̬̠͐̊é̵̲̩̈͐͜ ̵̢̹͕̿̏a̷͎̖͚̍͗̂f̷͔͐</h1>
-		    <div class="rain"></div>
-		  </div>
-		</body>
+        @media (prefers-reduced-motion) {
+          .hi {
+            animation: none;
+          }
+        }
+      </style>
+
+      <div class="container">
+        <h1>e̸̯̥͝v̵̰͚̦͛̊á̶̠́ș̸̀i̶̯͆͌̌v̵̼̬̠͐̊é̵̲̩̈͐͜ ̵̢̹͕̿̏a̷͎̖͚̍͗̂f̷͔͐ <div class="hi">👋</div></h1>
+      </div>
     </div>
   </foreignObject>
 </svg>
