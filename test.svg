@@ -21,11 +21,11 @@
 			}
 
 			.matrix-text {
-			  color: #0f0;
+			  color: #bd00ad;
 			  font-size: 80px;
 			  font-family: monospace;
 			  position: relative;
-			  text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+			  text-shadow: 0 0 10px #bd00ad, 0 0 20px #bd00ad, 0 0 30px #bd00ad;
 			  z-index: 2; /* Ensure it stays above the rain effect */
 			}
 
@@ -39,8 +39,8 @@
 			  animation: glitch 2s infinite;
 			  clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
 			  transform: translate(-2px, -2px);
-			  color: #0f0;
-			  text-shadow: 0 0 5px #0f0, 0 0 15px #0f0;
+			  color: #bd00ad;
+			  text-shadow: 0 0 5px #bd00ad, 0 0 15px #bd00ad;
 			}
 
 			.rain {
