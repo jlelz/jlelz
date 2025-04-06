@@ -88,7 +88,6 @@
 		<body class="matrix-bg">
 		  <div class="matrix-container">
 		    <h1 class="matrix-text" data-text="MATRIX">MATRIX</h1>
-		    <div class="rain"></div>
 		  </div>
 		</body>
     </div>
