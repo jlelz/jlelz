@@ -52,8 +52,8 @@
 			  height: 100%;
 			  background: repeating-linear-gradient(
 			    0deg,
-			    rgba(0, 255, 0, 0.1) 0,
-			    rgba(0, 255, 0, 0.2) 2px,
+			    rgb(106, 90, 205) 0,
+			    rgb(106, 90, 205) 2px,
 			    transparent 4px
 			  );
 			  animation: rain 10s linear infinite;
@@ -89,6 +89,7 @@
 		<body class="matrix-bg">
 		  <div class="matrix-container">
 		    <h1 class="matrix-text" data-text="e̸̯̥͝v̵̰͚̦͛̊á̶̠́ș̸̀i̶̯͆͌̌v̵̼̬̠͐̊é̵̲̩̈͐͜ ̵̢̹͕̿̏a̷͎̖͚̍͗̂f̷͔͐">e̸̯̥͝v̵̰͚̦͛̊á̶̠́ș̸̀i̶̯͆͌̌v̵̼̬̠͐̊é̵̲̩̈͐͜ ̵̢̹͕̿̏a̷͎̖͚̍͗̂f̷͔͐</h1>
+		    <div class="rain"/>
 		  </div>
 		</body>
     </div>
