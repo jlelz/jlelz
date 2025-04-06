@@ -52,8 +52,8 @@
 			  height: 100%;
 			  background: repeating-linear-gradient(
 			    0deg,
-			    rgb(34, 27, 38) 0,
-			    rgb(34, 27, 38) 2px,
+			    rgb(35,28,39) 0,
+			    rgb(35,28,39) 2px,
 			    transparent 4px
 			  );
 			  animation: rain 10s linear infinite;
