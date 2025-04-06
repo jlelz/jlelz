@@ -23,7 +23,7 @@
 
 			.matrix-text {
 			  color: #bd00ad;
-			  font-size: 54px;
+			  font-size: 80px;
 			  position: relative;
 			  text-shadow: 0 0 10px #bd00ad, 0 0 20px #bd00ad, 0 0 30px #bd00ad;
 			  z-index: 2; /* Ensure it stays above the rain effect */
