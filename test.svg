@@ -5,7 +5,8 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 		<style>
 			body {
-			  background: transparent;
+			  background-image: url("https://github.com/jlelz/jlelz/blob/main/images/bg.png");
+			  background-color: transparent;
 			  overflow: hidden;
 			  margin: 0;
 			  height: 100vh;
